@@ -1,0 +1,28 @@
+html{
+	font-family: sans-serif;
+	margin:25px;
+}
+.column{
+	float:left;
+	width:200px;
+	border: 2px solid;
+	padding:10px;
+}
+
+.column-one .column{
+	width:500px;
+}
+
+.title h1{
+			font-style: italic;
+}
+
+.title h2{
+			font-weight:normal;
+			float:center;
+}
+
+.lady{
+	width:25%;
+	height:25%;
+}
