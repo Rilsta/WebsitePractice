@@ -22,7 +22,6 @@ html{
 			float:center;
 }
 
-.lady{
-	width:25%;
-	height:25%;
+.lady-shown{
+	display: none;
 }
