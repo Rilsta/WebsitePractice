@@ -1,27 +1,28 @@
-html{
-	font-family: sans-serif;
-	margin:25px;
-}
-.column{
-	float:left;
-	width:200px;
-	border: 2px solid;
-	padding:10px;
+#shown-1{
+  display:none;
 }
 
-.column-one .column{
-	width:500px;
+#shown-2{
+  display:none;
 }
 
-.title h1{
-			font-style: italic;
+#shown-3{
+  display:none;
 }
 
-.title h2{
-			font-weight:normal;
-			float:center;
+.clickable-1{
+  color:blue;
 }
 
-.lady-shown{
-	display: none;
+
+.clickable-2{
+  color:blue;
+}
+
+.clickable-3{
+  color:blue;
+}
+
+.centering{
+  text-align: center;
 }

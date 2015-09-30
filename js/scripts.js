@@ -1,22 +1,18 @@
-$(document).ready(function() {
+$(document).ready(function(){
 
+  $(".clickable-1").click(function(){
+    $("#shown-1").fadeToggle();
+    $("#hidden-1").fadeToggle();
+  })
 
-  $("h1").click(function() {
-    alert("Dicks dicks dicks");
-  });
+  $(".clickable-2").click(function(){
+    $("#shown-2").fadeToggle();
+    $("#hidden-2").fadeToggle();
+  })
 
-  $("h2").dblclick(function(){
-    alert(fVeggie + ", who eats that?");
-  });
+  $(".clickable-3").click(function(){
+    $("#shown-3").fadeToggle();
+    $("#hidden-3").fadeToggle();
+  })
 
-  $("p").click(function(){
-    $(".lady-shown").toggle();
-    $(".lady-hidden").toggle();
-  });
-
-  $("ul").click(function(){
-    fVeggie = prompt("What's your fav veg?");
-    alert(fVeggie + ", wow cool.");
-  });
-
-});
+})
